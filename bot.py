@@ -18,7 +18,7 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     if message.guild is None and not message.author.bot:  # Only DMs
-        admin_id = 987654321098765432  # Replace with your Discord ID
+        admin_id = 1342734754868363268  # Replace with your Discord ID
         admin = await bot.fetch_user(admin_id)
         await admin.send(f"{message.author} ({message.author.id}) is requesting to join.")
 
