@@ -1,7 +1,7 @@
 import discord
 import os
 
-TOKEN = os.getenv("DISCORD_BOT_TOKEN")  # Your bot token (set in Vercel)
+TOKEN = os.getenv("MTM0NDczNjkxNzMzMzQ3OTUzNg.G6RBHt.MlLmYz__VLxuU3Zlb7pk4i7huXPrrxyPEYu7dE")  # Your bot token (set in Vercel)
 GUILD_ID = 1344699990777270362  # Replace with your server ID
 
 intents = discord.Intents.default()
