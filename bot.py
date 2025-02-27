@@ -35,4 +35,4 @@ async def on_message(message):
             await user.send(f"You have been approved! Here is your invite: {invite_link}")
             await message.channel.send(f"User {user.mention} has been approved.")
 
-bot.run(TOKEN)
+bot.run(MTM0NDczNjkxNzMzMzQ3OTUzNg.GV1nJY.keLRK8KIUaXQfZguPY4GvIhQleuGLUMCjw3yh8)
