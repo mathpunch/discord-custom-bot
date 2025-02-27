@@ -31,7 +31,7 @@ async def on_message(message):
         if len(parts) == 2:
             user_id = int(parts[1])
             user = await bot.fetch_user(user_id)
-            invite_link = "https://discord.gg/YOUR_INVITE_LINK"  # Replace with your invite
+            invite_link = "https://discord.gg/yQ3rNvyVQK"  # Replace with your invite
             await user.send(f"You have been approved! Here is your invite: {invite_link}")
             await message.channel.send(f"User {user.mention} has been approved.")
 
